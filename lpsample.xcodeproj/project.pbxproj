@@ -16,8 +16,8 @@
 		7EA9AA2B1A037BB500176364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9AA261A037BB500176364 /* AppDelegate.m */; };
 		7EA9AA2C1A037BB500176364 /* BeaconDeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9AA281A037BB500176364 /* BeaconDeviceListViewController.m */; };
 		7EA9AA2D1A037BB500176364 /* BeaconDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9AA2A1A037BB500176364 /* BeaconDeviceViewController.m */; };
-		7EA9AA381A0451AE00176364 /* lpsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA9AA371A0451AE00176364 /* lpsdk.framework */; };
-		7EA9AA391A0451AE00176364 /* lpsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA9AA371A0451AE00176364 /* lpsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EF997111A0454BB007E7AC9 /* lpsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF997101A0454BB007E7AC9 /* lpsdk.framework */; };
+		7EF997121A0454BB007E7AC9 /* lpsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF997101A0454BB007E7AC9 /* lpsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7EA9AA391A0451AE00176364 /* lpsdk.framework in Embed Frameworks */,
+				7EF997121A0454BB007E7AC9 /* lpsdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +55,7 @@
 		7EA9AA281A037BB500176364 /* BeaconDeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDeviceListViewController.m; sourceTree = "<group>"; };
 		7EA9AA291A037BB500176364 /* BeaconDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDeviceViewController.h; sourceTree = "<group>"; };
 		7EA9AA2A1A037BB500176364 /* BeaconDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDeviceViewController.m; sourceTree = "<group>"; };
-		7EA9AA371A0451AE00176364 /* lpsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lpsdk.framework; path = ../lpsdk/Products/lpsdk.framework; sourceTree = "<group>"; };
+		7EF997101A0454BB007E7AC9 /* lpsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lpsdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA9AA381A0451AE00176364 /* lpsdk.framework in Frameworks */,
+				7EF997111A0454BB007E7AC9 /* lpsdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 		7EA9A9E61A037B6B00176364 = {
 			isa = PBXGroup;
 			children = (
-				7EA9AA371A0451AE00176364 /* lpsdk.framework */,
+				7EF997101A0454BB007E7AC9 /* lpsdk.framework */,
 				7EA9A9F11A037B6B00176364 /* lpsample */,
 				7EA9A9F01A037B6B00176364 /* Products */,
 			);
@@ -305,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)"
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = lpsample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -319,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)"
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = lpsample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
