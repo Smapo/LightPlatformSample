@@ -1,0 +1,6 @@
+framework module lpsdk {
+  umbrella header "lpsdk.h"
+
+  export *
+  module * { export * }
+}

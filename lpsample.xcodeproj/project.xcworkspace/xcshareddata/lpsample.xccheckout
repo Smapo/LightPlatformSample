@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F845BB70-D487-4A7F-82C7-F72CA3D10C6B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AF9D55C6E067475C4CB861866F75AC01ACD934E4</key>
+		<string>github.com:Smapo/LightPlatformSDK.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AF9D55C6E067475C4CB861866F75AC01ACD934E4</key>
+		<string>lpsdk/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Smapo/LightPlatformSDK.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AF9D55C6E067475C4CB861866F75AC01ACD934E4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AF9D55C6E067475C4CB861866F75AC01ACD934E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lpsdk</string>
+		</dict>
+	</array>
+</dict>
+</plist>
