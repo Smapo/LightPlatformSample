@@ -16,8 +16,10 @@
 @property (nonatomic, strong) NSMutableSet *seenBeacons;
 @end
 
-NSString *const accessKey = @"717976392bb23c004d31a3b7648885d1102efa30";
-NSString *const secretKey = @"214acc0a6ba47144266e7683cf4fb75d74d4adab";
+# warning get input access and secret keys
+// get your access key and secret key from lightpf.com!!
+// NSString *const accessKey = @"abc";
+// NSString *const secretKey = @"abc";
 
 @implementation BeaconDeviceListViewController
 
