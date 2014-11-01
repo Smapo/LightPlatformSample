@@ -37,9 +37,14 @@
 }
 
 - (void)didEnterBeaconRegion {
+    // near an ibeacon
+    // can display a notification to user as below
+
+    /*
     UILocalNotification *notification = [[UILocalNotification alloc] init];
     notification.alertBody = @"found ibeacon";
     [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
+    */
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
